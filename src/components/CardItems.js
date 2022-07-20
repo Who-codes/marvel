@@ -15,10 +15,10 @@ export default function CardItems({ Title, Year, Type, Poster }) {
         />
       </div>
       <div className="info">
-        <h3 className="title">{Title}</h3>
-        <p>Year: {Year}</p>
-        <p>Type: {Type}</p>
+        <h2 className="title">{Title}</h2>
+        <h4>Year: {Year}</h4>
       </div>
+      <span> {Type}</span>
     </article>
   );
 }

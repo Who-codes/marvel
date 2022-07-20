@@ -12,6 +12,7 @@ export default function Form() {
         onChange={handleChange}
         placeholder="Search..."
         className="search"
+        autoFocus
       />
     </form>
   );
